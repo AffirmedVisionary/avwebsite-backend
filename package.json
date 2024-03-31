@@ -11,12 +11,10 @@
   },
   "lint-staged": {
     "*.{js,ts}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ],
     "*.{json,css,md}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "husky": {
